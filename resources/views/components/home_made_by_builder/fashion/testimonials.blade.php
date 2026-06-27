@@ -8,7 +8,7 @@
         <div class="row">
             <div class="col-12">
                 <div class="mb-30px">
-                    <h1 class="mv-title-40px text-center wow animate__fadeInUp  builder-editable" builder-identity="27" data-wow-delay=".2s">{{get_phrase('What People Are Saying')}}</h1>
+                    <h1 class="mv-title-40px text-center wow animate__fadeInUp  builder-editable" builder-identity="27" data-wow-delay=".2s">{{ get_phrase('What People Are Saying') }}</h1>
                 </div>
             </div>
         </div>

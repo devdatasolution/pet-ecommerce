@@ -173,6 +173,11 @@
                                                  <a class="dropdown-item" href="{{ route('admin.dashboard') }}">{{ get_phrase('Admin Dashboard') }}</a>
                                              </li>
                                          @else
+                                            @if(auth()->user()->is_vendor == 1)
+                                            <li>
+                                                <a href="{{ route('vendor.dashboard') }}" class="dropdown-item @if ($current_route == 'vendor.dashboard') active @endif">{{ get_phrase('Store  Dashboard') }}</a>
+                                            </li>
+                                            @endif
                                              <li>
                                                  <a href="{{ route('customer.wishlist_items') }}" class="dropdown-item @if ($current_route == 'customer.wishlist_items') active @endif">{{ get_phrase('Wishlist') }}</a>
                                              </li>

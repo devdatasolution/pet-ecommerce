@@ -1,0 +1,3 @@
+<?php $__currentLoopData = App\Models\Category::where('id', $category_id)->first()->attribute_types; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $attribute_type): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+    <li><button class="dropdown-item" onclick="appendAttribute('<?php echo e($attribute_type->name); ?>', '<?php echo e($attribute_type->id); ?>')" type="button"><?php echo e($attribute_type->name); ?></button></li>
+<?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?><?php /**PATH C:\laragon\www\elevate\resources\views/admin/product/attributes_dropdown_list.blade.php ENDPATH**/ ?>

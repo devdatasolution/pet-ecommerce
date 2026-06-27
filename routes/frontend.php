@@ -17,6 +17,7 @@ use Illuminate\Support\Facades\Route;
 // Home
 Route::controller(HomeController::class)->group(function () {
     Route::get('/', 'index')->name('home');
+    // Route::get('/', 'index-test')->name('home');
     Route::get('/customer-feedback', 'customer_feedback')->name('customer_feedback');
     Route::get('/switch-language', 'switch_language')->name('home.switch_language');
 

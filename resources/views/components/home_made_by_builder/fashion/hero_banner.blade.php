@@ -11,12 +11,12 @@
                     <!-- Title for tab -->
                         <div class="home-hero-tab-titles d-block d-lg-none">
                         <h2 class="sm-title builder-editable wow animate__fadeInUp" builder-identity="1" data-wow-delay=".2s">{{ get_phrase('Stylish') }}</h2>
-                        <img class="title wow animate__fadeInUp builder-editable" builder-identity="2" data-wow-delay=".3s" src="{{ asset('assets/frontend/fashion/images/images/fashion-text..svg') }}" alt="">
+                        <img class="title wow animate__fadeInUp builder-editable" builder-identity="2" data-wow-delay=".3s" src="{{ asset('http://127.0.0.1:8000/assets/frontend/fashion/images/images/fashion-text..svg') }}" alt="">
                         <p class="sub-title wow animate__fadeInUp" data-wow-delay=".4s">{{get_phrase('For Any ')}}<span class="fsh-text-skin">{{get_phrase('Season')}}</span></p>
                         </div>
                     <div class="home-hero-banner">
-                        <img class="d-none d-lg-block banner builder-editable" builder-identity="3" src="{{ asset('assets/frontend/fashion/images/images/fashion-banner-1.webp') }}" alt="banner">
-                        <img class="d-block d-lg-none banner  builder-editable" builder-identity="4" src="{{ asset('assets/frontend/fashion/images/images/fashion-banner-md.png') }}" alt="banner">
+                        <img class="d-none d-lg-block banner builder-editable" builder-identity="3" src="{{ asset('http://127.0.0.1:8000/assets/frontend/fashion/images/images/fashion-banner-1.webp') }}" alt="banner">
+                        <img class="d-block d-lg-none banner  builder-editable" builder-identity="4" src="{{ asset('http://127.0.0.1:8000/assets/frontend/fashion/images/images/fashion-banner-md.png') }}" alt="banner">
                         <div class="home-hero-buttons">
                             <a href="{{route('all_products')}}" class="btn fsh-btn-dark pe-4 icon-right mt-12px wow animate__fadeInUp" data-wow-delay=".3s">
                                 <span class="builder-editable" builder-identity="5">{{ get_phrase('Show More') }}</span>
